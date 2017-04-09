@@ -4,7 +4,7 @@ A 2D Unity simulation in which cars learn to navigate themselves through differe
 
 
 
-![](Images/Demo.gif)
+<img src="Images/Car.png" width="250">
 
 
 ## The Simulation
