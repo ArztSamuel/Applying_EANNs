@@ -2,15 +2,22 @@
 
 A 2D Unity simulation in which cars learn to navigate themselves through different courses. The cars are steered by a feedforward Neural Network. The weights of the network are trained using a modified genetic algorithm.
 
+
+
 ![](Images/Demo.gif)
+
 
 ## The Simulation
 
 Cars have to navigate through a course without touching the walls or any other obstacles of the course. A car has five front-facing sensors which measure the distance to obstacles in a given direction. The readings of these sensors serve as the input of the car's neural network. Each sensor points into a different direction, covering a front facing range of approximately 90 degrees. The maximum range of a sensor is 10 unity units. The output of the Neural Network then determines the car’s current engine and turning force.
 
-![A car inside the simulation.](Images/Car.png =250x)
+
+![A car inside the simulation.](Images/Car.png | width=250)
+
+
 
 If you would like to tinker with the parameters of the simulation, you can do so in the Unity Editor. If you would simply like to run the simulation with default parameters, you can start the built file [Builds/Applying EANNs.exe](Builds/Applying EANNs.exe).
+
 
 ## The Neural Network
 
@@ -40,6 +47,7 @@ The entire UI-code is located at [UnityProject/Assets/Scripts/GUI/](UnityProject
 There are multiple courses of different difficulties which are all located in different unity scenes and can be found in the folder [UnityProject/Assets/Scenes/Tracks/](UnityProject/Assets/Scenes/Tracks/).
 
 In order to start the simulation on a specific course, open the Main scene and enter the desired track-name (= scene name) in the Inspector of the GameStateManager object.
+
 
 ![Two different courses the cars can be trained on.](Images/Courses.png)
 
