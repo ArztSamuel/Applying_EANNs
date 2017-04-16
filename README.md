@@ -52,4 +52,9 @@ In order to start the simulation on a specific course, open the Main scene and e
 ![Two different courses the cars can be trained on.](Images/Courses.png)
 
 
+## License
+
+Feel free to use my code in your personal projects. I would be very interested in any work that originates from this project. I would be more than happy to hear from your impressions and results, so feel free to mail me at arzt.samuel@live.de.
+
+
 
