@@ -1,0 +1,28 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics (ID=0xf31)
+    Vendor:   Intel
+    VRAM:     547 MB
+    Driver:   10.18.10.4358
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\C#\Applying EANNs\Build\Applying EANNs_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\C#\Applying EANNs\Build\Applying EANNs_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\C#\Applying EANNs\Build\Applying EANNs_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\C#\Applying EANNs\Build\Applying EANNs_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\C#\Applying EANNs\Build\Applying EANNs_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\C#\Applying EANNs\Build\Applying EANNs_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\C#\Applying EANNs\Build\Applying EANNs_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\C#\Applying EANNs\Build\Applying EANNs_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.693 seconds
+Platform assembly: D:\C#\Applying EANNs\Build\Applying EANNs_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\C#\Applying EANNs\Build\Applying EANNs_Data\Managed\System.dll (this message is harmless)
+desktop: 1368x768 60Hz; virtual: 1368x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.002181 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: d20 -> priority: 1 
+  Thread -> id: 1e24 -> priority: 1 
