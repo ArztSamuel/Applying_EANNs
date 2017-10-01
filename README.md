@@ -1,7 +1,7 @@
 # Applying Evolutionary Artificial Neural Networks
 
 A 2D Unity simulation in which cars learn to navigate themselves through different courses. The cars are steered by a feedforward Neural Network. The weights of the network are trained using a modified genetic algorithm.
-
+Short demo video of an early version: https://youtu.be/rEDzUT3ymw4
 
 
 ![](Images/Demo.gif)
@@ -34,9 +34,9 @@ also slightly mutated in order to inject some more diversity into the population
 The generic version of a Genetic Algorithm can be found at [UnityProject/Assets/Scripts/AI/Evolution/GeneticAlgorithm.cs](UnityProject/Assets/Scripts/AI/Evolution/GeneticAlgorithm.cs). This class can be modified in a very easy way, by simply assigning your own methods to the delegate operator methods of the class. Some example code for adapting the Genetic Algorithm to your own needs can be found in the EvolutionManager  [UnityProject/Assets/Scripts/AI/Evolution/EvolutionManager.cs](UnityProject/Assets/Scripts/AI/Evolution/EvolutionManager.cs), which is already able to switch between two differently modified Genetic Algorithms.
 
 
-## User Interafce
+## User Interface
 
-The user interface always displays the data of the current best car. In the top left corner the Neural Networks output (Engine and Turning) is displayed. Right below the output, the evaluation value is displayed (the evaluation value is equalto the percentage of couse completion). In the lower left corner a generation counter is displayed. In the upper right corner the Neural Network of the current best car is displayed. The weights are symbolised by the color and width of the connections between neurons: The wider a connection, the bigger the absolute value of the weight; Green means that the weight is positive, red means that the weight is negative.
+The user interface always displays the data of the current best car. In the top left corner the Neural Network's output (engine and turning) is displayed. Right below the output, the evaluation value is displayed (the evaluation value is equal to the percentage of course completion). In the lower left corner a generation counter is displayed. In the upper right corner the Neural Network of the current best car is displayed. The weights are symbolised by the color and width of the connections between neurons: The wider a connection, the bigger the absolute value of the weight; Green means that the weight is positive, red means that the weight is negative.
 
 The entire UI-code is located at [UnityProject/Assets/Scripts/GUI/](UnityProject/Assets/Scripts/GUI/).
 
@@ -55,6 +55,7 @@ In order to start the simulation on a specific course, open the Main scene and e
 ## License
 
 Feel free to use my code in your personal projects. I would be very interested in any work that originates from this project. I would be more than happy to hear from your impressions and results, so feel free to mail me at arzt.samuel@live.de.
+You can also follow me on twitter: https://twitter.com/SamuelArzt
 
 
 
